@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+  <data>
+    <template id="snippet_video" name="Video snippet">
+  <section class="snippet_video">
+    <div class="container text-center">
+      <div class="row">
+        <video width="100%" controls=''>
+          <source src="/theme_trucker/static/src/video/intro-vid-1.mp4" type="video/mp4"/>
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+    </div>
+  </section>
+</template>
+<template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
+  <xpath expr="//div[@id='snippet_content']/div[@class='o_panel_body']" position="inside">
+    <t t-snippet="theme_trucker.snippet_video"
+       t-thumbnail="/theme_trucker/static/src/img/ui/snippet_thumb.jpg"/>
+  </xpath>
+</template>
+      <template id="snippet_mapa" name="Mapa snippet">
+  <section class="snippet_mapa">
+    <div class="container text-center">
+    
+        <div class="flex-container">
+            
+                <div class="trainers-content-list-item" style="background-image: url('https://s3.amazonaws.com/zingfitassets/onerebel/directory.Instructor/Danny_Portrait.jpg');"> <a href="trainer_profile.html" class="list-item-link"></a>
+                    <div class="trainers-content-list-item-details rollover-effect-block">
+                        <h2>Danny</h2>
+                        <h3>MASTER TRAINER</h3>
+                        
+                        
+                            <a href="http://instagram.com/dannygatesuk" title="">Follow on Instagram</a>
+                        
+                        <a class="view-profile" href="https://www.1rebel.co.uk/trainer/Danny">View Profile</a>
+                    </div>
+                </div>
+            
+                <div class="trainers-content-list-item" style="background-image: url('https://s3.amazonaws.com/zingfitassets/onerebel/directory.Instructor/Unknown.jpeg');"> <a href="trainer_profile.html" class="list-item-link"></a>
+                    <div class="trainers-content-list-item-details rollover-effect-block">
+                        <h2>Esmee</h2>
+                        <h3>MASTER TRAINER</h3>
+                        
+                        
+                            <a href="https://www.instagram.com/esmee_ldn/" title="">Follow on Instagram</a>
+                        
+                        <a class="view-profile" href="https://www.1rebel.co.uk/trainer/Esmee">View Profile</a>
+                    </div>
+                </div>
+            
+                <div class="trainers-content-list-item" style="background-image: url('https://s3.amazonaws.com/zingfitassets/onerebel/directory.Instructor/Robyn-for-web-2.jpg');"> <a href="trainer_profile.html" class="list-item-link"></a>
+                    <div class="trainers-content-list-item-details rollover-effect-block">
+                        <h2>Robyn</h2>
+                        <h3>MASTER TRAINER</h3>
+                        
+                        
+                            <a href="https://www.instagram.com/gingerfitnessldn/?hl=en" title="">Follow on Instagram</a>
+                        
+                        <a class="view-profile" href="https://www.1rebel.co.uk/trainer/Robyn">View Profile</a>
+                    </div>
+                </div>
+            
+                <div class="trainers-content-list-item" style="background-image: url('https://s3.amazonaws.com/zingfitassets/onerebel/directory.Instructor/Unknown-4.jpeg');"> <a href="trainer_profile.html" class="list-item-link"></a>
+                    <div class="trainers-content-list-item-details rollover-effect-block">
+                        <h2>Jono</h2>
+                        <h3>MASTER TRAINER</h3>
+                        
+                        
+                            <a href="http://instagram.com/joknow" title="">Follow on Instagram</a>
+                        
+                        <a class="view-profile" href="https://www.1rebel.co.uk/trainer/Jono">View Profile</a>
+                    </div>
+                </div>
+            
+                <div class="trainers-content-list-item" style="background-image: url('https://s3.amazonaws.com/zingfitassets/onerebel/directory.Instructor/TIAGO_new.png');"> <a href="trainer_profile.html" class="list-item-link"></a>
+                    <div class="trainers-content-list-item-details rollover-effect-block">
+                        <h2>Tiago</h2>
+                        <h3>MASTER TRAINER</h3>
+                        
+                        
+                            <a href="https://instagram.com/t.silva_fitness" title="">Follow on Instagram</a>
+                        
+                        <a class="view-profile" href="https://www.1rebel.co.uk/trainer/Tiago">View Profile</a>
+                    </div>
+                </div>
+            
+                <div class="trainers-content-list-item" style="background-image: url('https://s3.amazonaws.com/zingfitassets/onerebel/directory.Instructor/Unknown-1.jpeg');"> <a href="trainer_profile.html" class="list-item-link"></a>
+                    <div class="trainers-content-list-item-details rollover-effect-block">
+                        <h2>Kim</h2>
+                        <h3>Master Trainer</h3>
+                        
+                        
+                            <a href="https://www.instagram.com/kimmayco/" title="">Follow on Instagram</a>
+                        
+                        <a class="view-profile" href="https://www.1rebel.co.uk/trainer/Kim">View Profile</a>
+                    </div>
+                </div>
+            
+                <div class="trainers-content-list-item" style="background-image: url('https://s3.amazonaws.com/zingfitassets/onerebel/directory.Instructor/Unknown-5.jpeg');"> <a href="trainer_profile.html" class="list-item-link"></a>
+                    <div class="trainers-content-list-item-details rollover-effect-block">
+                        <h2>Daniel</h2>
+                        <h3>MASTER TRAINER</h3>
+                        
+                        
+                            <a href="https://www.instagram.com/danielmccarrolldmpt/" title="">Follow on Instagram</a>
+                        
+                        <a class="view-profile" href="https://www.1rebel.co.uk/trainer/Daniel">View Profile</a>
+                    </div>
+                </div>
+            
+                <div class="trainers-content-list-item" style="background-image: url('https://s3.amazonaws.com/zingfitassets/onerebel/directory.Instructor/Zoe-for-web.jpg');"> <a href="trainer_profile.html" class="list-item-link"></a>
+                    <div class="trainers-content-list-item-details rollover-effect-block">
+                        <h2>Zoe</h2>
+                        <h3>RESHAPE, RIDE &amp; RUMBLE TRAINER</h3>
+                        
+                        
+                            <a href="https://www.instagram.com/zealth_/" title="">Follow on Instagram</a>
+                        
+                        <a class="view-profile" href="https://www.1rebel.co.uk/trainer/Zoe">View Profile</a>
+                    </div>
+                </div>
+            
+        </div>
+    
+
+    </div>
+  </section>
+</template>
+<template id="place_into_bar_mapa" inherit_id="website.snippets" name="Place into bar mapa">
+  <xpath expr="//div[@id='snippet_content']/div[@class='o_panel_body']" position="inside">
+    <t t-snippet="theme_trucker.snippet_mapa"
+       t-thumbnail="/theme_trucker/static/src/img/ui/snippet_thumb.jpg"/>
+  </xpath>
+</template>
+
+  </data>
+
+</odoo>
